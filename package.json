@@ -1,0 +1,39 @@
+{
+  "name": "cosmat",
+  "version": "1.0.0",
+  "description": "Biling system for cosmatic products",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhelkhan1/Cosmat.git"
+  },
+  "keywords": [
+    "Cosmetics"
+  ],
+  "author": "Suhel Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhelkhan1/Cosmat/issues"
+  },
+  "homepage": "https://github.com/suhelkhan1/Cosmat#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^1.3.0",
+    "express": "^4.15.4",
+    "express-validator": "^3.2.1",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "serve-favicon": "^2.4.3",
+    "timeout": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
