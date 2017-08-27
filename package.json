@@ -21,17 +21,24 @@
   },
   "homepage": "https://github.com/suhelkhan1/Cosmat#readme",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
+    "chai": "^1.8.1",
+    "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
-    "cookie-session": "^1.3.0",
+    "cors": "^2.8.4",
+    "debug": "^2.6.8",
     "express": "^4.15.4",
-    "express-validator": "^3.2.1",
-    "jade": "^1.11.0",
-    "method-override": "^2.3.9",
+    "express-session": "^1.15.5",
+    "mocha": "^1.14.0",
+    "mongoose": "^4.11.7",
     "morgan": "^1.8.2",
-    "passport": "^0.4.0",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^1.3.0",
+    "pug": "^2.0.0-rc.3",
     "serve-favicon": "^2.4.3",
-    "timeout": "^0.2.1"
+    "should": "^2.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
